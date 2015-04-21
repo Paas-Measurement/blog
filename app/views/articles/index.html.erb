@@ -1,0 +1,20 @@
+<h1>All Articles</h1>
+<p>
+	<%= link_to 'Create New Article', new_article_path %>
+</p>
+
+<% @articles.each do |article| %>
+<table>
+	<tr>
+		<th align="left"><%= article.title %></th>
+		<th><%= link_to 'Show', article_path(article) %></th>
+		<th><%= link_to 'Edit', edit_article_path(article) %></th>
+		<th><%= link_to 'Delete', article_path(article),
+		method: :delete,
+		data: { confirm: 'Are you sure you want to delete this Article?' } %></th>
+	</tr>
+	<tr>
+		<td width="80%"><%= article.text %></td>
+	</tr>
+</table>
+<% end %>
