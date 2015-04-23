@@ -33,7 +33,7 @@ end
 
 # MW: hinzugefügt
 # gem 'rack', '~> 1.5.2'
- gem 'rack', '~> 1.6.0'
+ gem 'rack', '~> 1.6.0', :platform => 'ruby'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
