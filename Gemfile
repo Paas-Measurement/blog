@@ -30,7 +30,7 @@ group :doc do
 end
 
 # MW: hinzugefügt
-gem 'rack', '~> 1.5.2'
+gem 'rack', '~> 1.6.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
