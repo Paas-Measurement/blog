@@ -15,7 +15,7 @@ GEM
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.1)
     actionview (4.2.1)
-      activesupport (= 4.2.1)
+      activesupport (= 4.2.1) 
       builder (~> 3.1)
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
@@ -150,7 +150,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  nokogiri (~> 1.5)
   pg (~> 3.0)
   rack (~> 1.6)
   rails (= 4.2.1)
