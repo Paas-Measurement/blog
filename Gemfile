@@ -5,7 +5,9 @@ gem 'rails', '4.2.1'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-gem "pg"
+gem 'pg', '~> 3.0', :platform => 'ruby'
+# MW: added:
+gem 'nokogiri', '~> 1.6.6.2', :platform => 'ruby'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -30,8 +32,8 @@ group :doc do
 end
 
 # MW: hinzugefügt
-#gem 'rack', '~> 1.5.2'
-gem 'rack', '~> 1.6.0'
+# gem 'rack', '~> 1.5.2'
+ gem 'rack', '~> 1.6.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
