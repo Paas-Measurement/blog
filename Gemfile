@@ -7,7 +7,7 @@ gem 'rails', '4.2.1'
 # gem 'sqlite3'
 gem 'pg', '~> 3.0', :platform => 'ruby'
 # MW: added:
-gem 'nokogiri', '~> 1.6.6.2', :platform => 'ruby'
+gem 'nokogiri', '~> 1.5', :platform => 'ruby'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
